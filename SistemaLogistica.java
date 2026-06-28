@@ -113,9 +113,9 @@ public class SistemaLogistica {
         do {
             System.out.println("\nSistema De Logistica De Entregas Inteligente");
             System.out.println("1. Registrar nuevo Cliente");
-            System.out.println("2. Registrar Paquete (Asignación Inteligente)");
-            System.out.println("3. Actualizar Tráfico de la Ciudad (Reto 1)");
-            System.out.println("4. Cerrar/Abrir una Calle Temporalmente (Reto 2)");
+            System.out.println("2. Registrar Paquete"); // Asignacion inteligente
+            System.out.println("3. Actualizar Tráfico de la Ciudad"); // Reto 1
+            System.out.println("4. Cerrar/Abrir una Calle Temporalmente"); // Reto 2
             System.out.println("5. Ver Reporte de Paquetes (Ordenados por Peso)");
             System.out.println("6. Guardar y Salir");
             System.out.print("Seleccione una opción: ");
@@ -131,7 +131,7 @@ public class SistemaLogistica {
 
             switch (opcion) {
                 case 1:
-                    System.out.print("Ingrese ID del Cliente (ej. CLI01): ");
+                    System.out.print("Ingrese ID del Cliente: ");
                     String id = scanner.nextLine();
                     System.out.print("Ingrese Nombre: ");
                     String nombre = scanner.nextLine();
