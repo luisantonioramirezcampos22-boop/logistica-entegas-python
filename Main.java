@@ -7,18 +7,16 @@ public static void main(String[] args) {
     sistema.getMapaCiudad().agregarConexion("Centro", "Zona Sur", 4);
     sistema.getMapaCiudad().agregarConexion("Zona Sur", "Zona Este", 3);
 
-    // Registramos Repartidores con diferentes vehículos colocados en distintas zonas
+    // Aqui registramos repartidores con diferentes vehículos colocados en distintas zonas
     Repartidor rep1 = new Repartidor("Marcos", new Moto(), "Avenida 1");
     Repartidor rep2 = new Repartidor("Elena", new Camion(), "Zona Sur");
     
     sistema.registrarRepartidor(rep1);
     sistema.registrarRepartidor(rep2);
 
-    System.out.println("=================================================");
-    System.out.println("       PRUEBAS FASE 3: ASIGNACIÓN INTELIGENTE    ");
-    System.out.println("=================================================");
+    System.out.println("Asignacion inteligente"); // Pruebas FASE 3
 
-    // Creamos paquetes con diferentes destinos
+    // Aqui se crean paquetes con diferentes destinos
     Paquete paqueteNorte = new Paquete("A789", 1.5, "Zona Norte", "CLI01");
     Paquete paqueteEste = new Paquete("B456", 14.0, "Zona Este", "CLI02");
 
