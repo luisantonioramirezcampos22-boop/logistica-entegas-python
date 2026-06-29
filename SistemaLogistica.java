@@ -225,6 +225,8 @@ public class SistemaLogistica {
         sistema.registrarRepartidor(new Repartidor("Marcos", new Moto(), "Centro"));
         sistema.registrarRepartidor(new Repartidor("Elena", new Camion(), "Sur"));
 
+sistema.cargarDatos(); // Carga automática de datos guardados
+
         int opcion = 0;
         do {
             System.out.println("\nSistema De Logistica De Entregas Inteligente");
