@@ -1,4 +1,0 @@
-[
-  {"nombre":"Marcos", "zonaActual":"Centro", "disponible":false, "paquetesAsignados":["PO67","ML98","UK98"], "tipoVehiculo":"Moto"},
-  {"nombre":"Elena", "zonaActual":"Sur", "disponible":true, "paquetesAsignados":["89YU","FD34","KL43","C09L"], "tipoVehiculo":"Camión"}
-]
