@@ -1,0 +1,26 @@
+{
+    "Centro": {
+        "Norte": 5,
+        "Sur": 4,
+        "Este": 3,
+        "Oeste": 6
+    },
+    "Norte": {
+        "Centro": 5,
+        "Este": 2
+    },
+    "Sur": {
+        "Centro": 4,
+        "Oeste": 3
+    },
+    "Este": {
+        "Centro": 3,
+        "Norte": 2,
+        "Oeste": 4
+    },
+    "Oeste": {
+        "Centro": 6,
+        "Sur": 3,
+        "Este": 4
+    }
+}
