@@ -59,7 +59,7 @@ def main():
                 continue
                 
             peso = input("Peso del paquete (kg): ").strip()
-            destino = input("Zona destino: ").strip() 
+            destino = input("Zona destino (Centro, Norte, Sur, Este, Oeste): ").strip() 
             
             if destino not in ciudad.grafo:
                 print(f"Error: La zona '{destino}' no existe en el mapa vial (rutas.json).")
