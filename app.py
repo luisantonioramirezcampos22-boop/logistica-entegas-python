@@ -4,12 +4,12 @@ import os
 # Aqui permite ajustar rutas de importación de Python para reconocer carpetas internas
 sys.path.append(os.path.dirname(__file__))
 
-from modules.leerCSV import cargar_desde_csv, guardar_a_csv
-from modules.leerJSON import cargar_grafo_json
-from objetos.cliente import Cliente
-from objetos.paquete import Paquete
-from objetos.repartidor import Repartidor
-from objetos.rutas import CiudadGrafo
+from src.modules.leerCSV import cargar_desde_csv, guardar_a_csv
+from src.modules.leerJSON import cargar_grafo_json
+from src.objetos.cliente import Cliente
+from src.objetos.paquete import Paquete
+from src.objetos.repartidor import Repartidor
+from src.objetos.rutas import CiudadGrafo
 
 def ordenar_paquetes_por_peso(lista):
     """Ordena colecciones de paquetes de mayor a menor peso."""
