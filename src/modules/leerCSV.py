@@ -1,8 +1,8 @@
 import csv
 import os
-from objetos.cliente import Cliente
-from objetos.paquete import Paquete
-from objetos.repartidor import Repartidor
+from src.objetos.cliente import Cliente
+from src.objetos.paquete import Paquete
+from src.objetos.repartidor import Repartidor
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '../../data')
 
